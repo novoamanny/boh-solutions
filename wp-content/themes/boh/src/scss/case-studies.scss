@@ -1,0 +1,1153 @@
+.single-case_studies{
+    .container{
+        .content{
+            .cs-hero{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                position: relative;
+                img{
+                    filter: brightness(50%);
+                    max-height:1100px;
+                    @media(max-width:2600px){
+                        max-height: 1200px;
+                    }
+                    @media(max-width:2600px){
+                        max-height: 1300px;
+                    }
+                    @media(max-width:2300px){
+                        max-height: 1100px;
+                    }
+                    @media(max-width:2100px){
+                        max-height: 1000px;
+                    }
+                    @media(max-width:1900px){
+                        max-height: 900px;
+                    }
+                    @media(max-width:1800px){
+                        max-height: 800px;
+                    }
+                    @media(max-width:1700px){
+                        max-height: 750px;
+                    }
+                    @media(max-width:1500px){
+                        max-height: 700px;
+                    }
+                    @media(max-width:1400px){
+                        max-height: 670px;
+                    }
+                    @media(max-width:1300px){
+                        max-height: 640px;
+                    }
+                    @media(max-width:1300px){
+                        max-height: 600px;
+                    }
+                    @media(max-width:1200px){
+                        max-height: 600px;
+                    }
+                    @media(max-width:900px){
+                        max-height: 500px;
+                    }
+                    @media(max-width:400px){
+                        height: 40vh;
+                    }
+                    
+                    
+                }
+                .cs-subtitle{
+                    position: absolute;
+                    top: 14%;
+                    left: 20%;
+                    color: #fff;
+                    max-width: 32%;
+                    border-top: 2px solid #fff;
+                    border-bottom: 2px solid #fff;
+                    padding: 30px 0;
+                    padding-left: 50px;
+                    h1{
+                        font-size: 5.5rem;
+                        line-height: 6rem;
+                    }
+                    h3{
+                        font-size: 2.5rem;
+                    }
+                    @media screen and (max-width: 2500px) {
+                        position: absolute;
+                        top: 17%;
+                        left: 18%;
+                        max-width: 30%;
+                        h1{
+                            font-size: 5rem;
+                            line-height: 5.5rem;
+                        }
+                        h3{
+                            font-size: 2.2rem;
+                        }
+                    }
+                    @media screen and (max-width: 2300px) {
+                        position: absolute;
+                        top: 15%;
+                        left: 15%;
+                        max-width: 30%;
+                        h1{
+                            font-size: 4.7rem;
+                            line-height: 5.2rem;
+                        }
+                        h3{
+                            font-size: 2rem;
+                        }
+                    }
+                    @media screen and (max-width: 2100px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 12%;
+                        max-width: 30%;
+                        h1{
+                            font-size: 4.4rem;
+                            line-height: 5.2rem;
+                        }
+                        h3{
+                            font-size: 1.7rem;
+                        }
+                    }
+                    @media screen and (max-width: 2000px) {
+                        position: absolute;
+                        top: 15%;
+                        left: 12%;
+                        max-width: 30%;
+                        // h1{
+                        //     font-size: 4.4rem;
+                        //     line-height: 5.2rem;
+                        // }
+                        // h3{
+                        //     font-size: 1.7rem;
+                        // }
+                    }
+                    @media screen and (max-width: 1900px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 9%;
+                        max-width: 30%;
+                        h1{
+                            font-size: 4rem;
+                            line-height: 4.8rem;
+                        }
+                        h3{
+                            font-size: 1.7rem;
+                        }
+                    }
+                    @media screen and (max-width: 1800px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 9%;
+                        max-width: 30%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        h1{
+                            font-size: 3.7rem;
+                            line-height: 4.2rem;
+                        }
+                        h3{
+                            font-size: 1.4rem;
+                        }
+                    }
+                    @media screen and (max-width: 1700px) {
+                        position: absolute;
+                        top: 12%;
+                        left: 9%;
+                        max-width: 30%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        h1{
+                            font-size: 3.7rem;
+                            line-height: 4.2rem;
+                        }
+                        h3{
+                            font-size: 1.4rem;
+                        }
+                    }
+                    @media screen and (max-width: 1600px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 9%;
+                        max-width: 32%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        h1{
+                            font-size: 3.4rem;
+                            line-height: 4rem;
+                        }
+                        h3{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    @media screen and (max-width: 1500px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 9%;
+                        max-width: 32%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        border-top: 1px solid #fff;
+                        border-bottom:  1px solid #fff;
+                        h1{
+                            font-size: 3.4rem;
+                            line-height: 4rem;
+                        }
+                        h3{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    @media screen and (max-width: 1400px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 9%;
+                        max-width: 35%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        h1{
+                            font-size: 3.4rem;
+                            line-height: 4rem;
+                        }
+                        h3{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    @media screen and (max-width: 1300px) {
+                        position: absolute;
+                        top: 12%;
+                        left: 9%;
+                        max-width: 38%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        h1{
+                            font-size: 3rem;
+                            line-height: 3.6rem;
+                        }
+                        h3{
+                            font-size: 1.1rem;
+                        }
+                    }
+                    @media screen and (max-width: 1200px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 9%;
+                        max-width: 40%;
+                        padding: 20px 0;
+                        padding-left: 40px;
+                        h1{
+                            font-size: 3rem;
+                            line-height: 3.6rem;
+                        }
+                        h3{
+                            font-size: 1.1rem;
+                        }
+                    }
+                    @media screen and (max-width: 1100px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 11%;
+                        max-width: 40%;
+                        padding: 15px 0;
+                        padding-left: 30px;
+                        h1{
+                            font-size: 2.8rem;
+                            line-height: 3rem;
+                        }
+                        h3{
+                            font-size: 1rem;
+                        }
+                    }
+                    @media screen and (max-width: 1000px) {
+                        position: absolute;
+                        top: 13%;
+                        left: 11%;
+                        max-width: 45%;
+                        padding: 15px 0;
+                        padding-left: 30px;
+                        h1{
+                            font-size: 2.8rem;
+                            line-height: 3rem;
+                        }
+                        h3{
+                            font-size: 1rem;
+                        }
+                    }
+                    @media screen and (max-width: 900px) {
+                        position: absolute;
+                        top: 12%;
+                        left: 12%;
+                        max-width: 50%;
+                        padding: 15px 0;
+                        padding-left: 30px;
+                        h1{
+                            font-size: 2.8rem;
+                            line-height: 3rem;
+                        }
+                        h3{
+                            font-size: 1rem;
+                        }
+                    }
+                    @media screen and (max-width: 850px) {
+                        position: absolute;
+                        top: 6%;
+                        left: 12%;
+                        max-width: 52%;
+                        padding: 15px 0;
+                        padding-left: 30px;
+                        h1{
+                            font-size: 2.4rem;
+                            line-height: 2.7rem;
+                        }
+                        h3{
+                            font-size: 1rem;
+                        }
+                    }
+                    @media screen and (max-width: 700px) {
+                        position: absolute;
+                        top: 6%;
+                        left: 15%;
+                        max-width: 55%;
+                        padding: 15px 0;
+                        padding-left: 30px;
+                        h1{
+                            font-size: 2.4rem;
+                            line-height: 2.7rem;
+                        }
+                        h3{
+                            font-size: 1rem;
+                        }
+                    }
+                    @media screen and (max-width: 600px) {
+                        max-width: 60%;
+                        h1{
+                            font-size: 2.2rem;
+                            line-height: 2.5rem;
+                        }
+                        h3{
+                            font-size: .9rem;
+                        }
+                    }
+                    @media screen and (max-width: 500px) {
+                        position: absolute;
+                        top: 4%;
+                        left: 11%;
+                        max-width: 70%;
+                        padding: 5px 0;
+                        padding-left: 30px;
+                       
+                    }
+                    @media screen and (max-width: 400px) {
+                        max-width: 80%;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+                        padding-left: 0;
+                        right: 0;
+                        margin: auto;
+
+                        h1{
+                            font-size: 1.6rem;
+                            line-height: 1em;
+                        }
+                        h3{
+                            font-size: 4vw;
+                            margin: 0;
+                            &:last-of-type{
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+                .cs-subtitle::before {
+                    display: block;
+                    content: '';
+                    height: 50px;
+                    width: 2px;
+                    transform: rotate(-45deg);
+                    position: absolute;
+                    top: -8px; right:-18px;
+                    background-color: #fff;
+                    // border-top: 80px solid transparent;
+                    // border-left: 80px solid red;
+                    // width: 0;
+                
+                    @media screen and (max-width: 400px) {
+                      height: 20px;
+                      top: -3px;
+                      right: -8px;
+                    }
+                  }
+                  .cs-subtitle::after {
+                      display: block;
+                      content: '';
+                      height: 50px;
+                      width: 2px;
+                      transform: rotate(-45deg);
+                      position: absolute;
+                      bottom: -8px; left:-18px;
+                      background-color: #fff;
+                      // border-top: 80px solid transparent;
+                      // border-left: 80px solid red;
+                      // width: 0;
+                
+                      @media screen and (max-width: 400px) {
+                        height: 20px;
+                        bottom: -3px;
+                        left: -8px;
+                      }
+                  }
+            }
+            .cs-container{
+                
+                display: flex;
+                justify-content: center;
+                margin: 80px 0;
+                .right{
+                    border-top: solid 2px black;
+                    border-bottom: solid 2px black;
+                    position: relative;
+                }
+                .right::before {
+                    display: block;
+                    content: '';
+                    height: 70px;
+                    width: 2px;
+                    transform: rotate(-45deg);
+                    position: absolute;
+                    top: -1.5%; right:-2%;
+                    background-color: black;
+                    // border-top: 80px solid transparent;
+                    // border-left: 80px solid red;
+                    // width: 0;
+                }
+                .right::after {
+                    display: block;
+                    content: '';
+                    height: 70px;
+                    width: 2px;
+                    transform: rotate(45deg);
+                    position: absolute;
+                    bottom: -1.5%; right:-2%;
+                    background-color: black;
+                    // border-top: 80px solid transparent;
+                    // border-left: 80px solid red;
+                    // width: 0;
+                }
+                .left{
+                    border-top: solid 2px black;
+                    border-bottom: solid 2px black;
+                    position: relative;
+                }
+                .left::before {
+                    display: block;
+                    content: '';
+                    height: 70px;
+                    width: 2px;
+                    transform: rotate(45deg);
+                    position: absolute;
+                    top: -1.5%; left:-2%;
+                    background-color: black;
+                    // border-top: 80px solid transparent;
+                    // border-left: 80px solid red;
+                    // width: 0;
+                }
+                .left::after {
+                    display: block;
+                    content: '';
+                    height: 70px;
+                    width: 2px;
+                    transform: rotate(-45deg);
+                    position: absolute;
+                    bottom: -1.5%; left:-2%;
+                    background-color: black;
+                    // border-top: 80px solid transparent;
+                    // border-left: 80px solid red;
+                    // width: 0;
+                }
+                @media screen and (max-width:2400px) {
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -1.5%; left:-2.2%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -1.5%; left:-2.2%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -1.5%; right:-2.2%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -1.5%; right:-2.2%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width:2200px) {
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -1.7%; left:-2.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -1.7%; left:-2.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -1.7%; right:-2.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -1.7%; right:-2.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width:2000px) {
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -2%; left:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -2%; left:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -2%; right:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -2%; right:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width:1800px) {
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -2.5%; left:-3.3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -2.5%; left:-3.3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -2.5%; right:-3.3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -2.5%; right:-3.3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width:1600px) {
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -2.5%; left:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -2.5%; left:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -2.5%; right:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 70px;
+                        width: 2px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -2.5%; right:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width:1500px) {
+                    margin: 50px;
+
+                    .left,.right{
+                        border-top: 1px solid black;
+                        border-bottom: 1px solid black;
+                    }
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -2.5%; left:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -2.5%; left:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -2.5%; right:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -2.5%; right:-3%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+
+
+                @media screen and (max-width:1200px) {
+                    margin: 50px;
+
+                    // .left,.right{
+                    //     border-top: 1px solid black;
+                    //     border-bottom: 1px solid black;
+                    // }
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -2.5%; left:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -2.5%; left:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -2.5%; right:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -2.5%; right:-3.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width:1000px) {
+                    margin: 50px;
+
+                    // .left,.right{
+                    //     border-top: 1px solid black;
+                    //     border-bottom: 1px solid black;
+                    // }
+                    .left::before {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        top: -2.5%; left:-4.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .left::after {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        bottom: -2.5%; left:-4.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::before {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(-45deg);
+                        position: absolute;
+                        top: -2.5%; right:-4.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                    .right::after {
+                        display: block;
+                        content: '';
+                        height: 50px;
+                        width: 1px;
+                        transform: rotate(45deg);
+                        position: absolute;
+                        bottom: -2.5%; right:-4.5%;
+                        background-color: black;
+                        // border-top: 80px solid transparent;
+                        // border-left: 80px solid red;
+                        // width: 0;
+                    }
+                }
+                @media screen and (max-width: 850px) {
+                    flex-wrap: wrap;
+                    .right, .left{
+                        border: none;
+                    }
+                    .left::before {
+                        display: none;
+                        
+                    }
+                    .left::after {
+                        display: none;
+                        
+                    }
+                    .right::before {
+                        display: none;
+                        
+                    }
+                    .right::after {
+                        display: none;
+                        
+                    }
+                }
+                .cs-text{
+                    width: 40%;
+                    padding: 50px 120px;
+                    h1{
+                        color: #ab2328;
+                        font-size: 2.5vw;
+                    }
+                    p{
+                        font-size: 2.5rem;
+                        color: #00173a;
+                        margin: 30px 0;
+                    }
+                    ul{
+                        font-size: 2rem;
+                        color: #00173a;
+                       li{
+                        margin: 20px 0;
+                       }
+                    }
+                    @media screen and (max-width: 2600px) {
+                        padding: 50px 100px;
+                    }
+                    @media screen and (max-width: 2500px) {
+                        p{
+                            font-size: 2.2rem;
+                            margin: 30px 0;
+                        }
+                        ul{
+                            font-size: 1.8rem;
+                           li{
+                            margin: 20px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 2300px) {
+                        padding: 50px 80px;
+                        h1{
+                            font-size: 2.5vw;
+                        }
+                        p{
+                            font-size: 1.9rem;
+                            margin: 30px 0;
+                        }
+                        ul{
+                            font-size: 1.6rem;
+                           li{
+                            margin: 20px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 2200px) {
+                        padding: 40px 60px;
+                        h1{
+                            font-size: 2.5vw;
+                        }
+                        p{
+                            font-size: 1.7rem;
+                            margin: 30px 0;
+                        }
+                        ul{
+                            font-size: 1.4rem;
+                           li{
+                            margin: 20px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 2000px) {
+                        padding: 40px 0px;
+                        padding-left: 50px;
+                        padding-right: 30px;
+                        h1{
+                            font-size: 2.5vw;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                            margin: 30px 0;
+                        }
+                        ul{
+                            font-size: 1.3rem;
+                           li{
+                            margin: 20px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 1900px) {
+                        padding: 40px 0px;
+                        padding-left: 50px;
+                        padding-right: 20px;
+                        h1{
+                            font-size: 2.5vw;
+                        }
+                        p{
+                            font-size: 1.3rem;
+                            margin: 20px 0;
+                        }
+                        ul{
+                            font-size: 1.1rem;
+                           li{
+                            margin: 10px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 1600px) {
+                        padding: 40px 0px;
+                        padding-left: 50px;
+                        padding-right: 20px;
+                        h1{
+                            font-size: 2.2vw;
+                        }
+                        p{
+                            font-size: 1.1rem;
+                            margin: 10px 0;
+                        }
+                        ul{
+                            font-size: 1rem;
+                           li{
+                            margin: 10px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 1500px) {
+                        padding: 20px 0px;
+                        padding-left: 50px;
+                        padding-right: 20px;
+                        h1{
+                            font-size: 2.2vw;
+                        }
+                        p{
+                            font-size: 1rem;
+                            margin: 10px 0;
+                        }
+                        ul{
+                            font-size: .9rem;
+                           li{
+                            margin: 10px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 1000px) {
+                        padding: 10px 0px;
+                        padding-left: 30px;
+                        padding-right: 20px;
+                        h1{
+                            font-size: 2.2vw;
+                        }
+                        p{
+                            font-size: .9rem;
+                            margin: 5px 0;
+                        }
+                        ul{
+                            font-size: .8rem;
+                           li{
+                            margin: 10px 0;
+                           }
+                        }
+                    }
+                    @media screen and (max-width: 850px) {
+                        width: 100%;
+                        padding: 10px 20px;
+                    }
+                    @media screen and (max-width: 700px) {
+                        h1{
+                            font-size: 3.5vw;
+                        }
+                    }
+                    @media screen and (max-width: 500px) {
+                        h1{
+                            font-size: 4.5vw;
+                        }
+                    }
+                    @media screen and (max-width: 500px) {
+                        h1{
+                            font-size: 5.5vw;
+                        }
+                    }
+                }
+                .cs-image{
+                  
+                    width:40%;
+                    
+                    @media screen and (max-width:2000px) {
+                        width: 35%;
+                    }
+                    @media screen and (max-width:1200px) {
+                        width: 45%;
+                    }
+                    @media screen and (max-width: 850px) {
+                        width: 100%;
+                    }
+                }
+
+            }
+            @media screen and (max-width: 850px) {
+                .cs-container:nth-child(3){
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+            
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .container{
+            width: 100%;
+        }
+        
+    }
+  
+}
